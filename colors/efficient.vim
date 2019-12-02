@@ -76,7 +76,7 @@ hi Directory           ctermfg=197  ctermbg=NONE cterm=bold       guifg=#ff005f 
 hi Pmenu               ctermfg=233  ctermbg=242  cterm=bold       guifg=#121212  guibg=#6c6c6c  gui=bold
 hi PmenuSbar           ctermfg=233  ctermbg=242  cterm=bold       guifg=#121212  guibg=#6c6c6c  gui=bold
 hi PmenuThumb          ctermfg=233  ctermbg=242  cterm=bold       guifg=#121212  guibg=#6c6c6c  gui=bold
-hi PmenuSel            ctermfg=161  ctermbg=242  cterm=bold       guifg=#d7005f  guibg=#6c6c6c  gui=bold
+hi PmenuSel            ctermfg=125  ctermbg=242  cterm=bold       guifg=#af005f  guibg=#6c6c6c  gui=bold
 
 hi Folded              ctermfg=258  ctermbg=239  cterm=bold       guifg=#eeeeee  guibg=#4e4e4e  gui=bold
 hi FoldColumn          ctermfg=258  ctermbg=239  cterm=bold       guifg=#eeeeee  guibg=#4e4e4e  gui=bold
