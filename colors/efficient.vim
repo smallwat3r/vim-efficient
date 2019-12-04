@@ -61,7 +61,7 @@ hi VertSplit           ctermfg=197  ctermbg=233  cterm=NONE       guifg=#ff005f 
 hi SignColumn          ctermfg=233  ctermbg=233  cterm=NONE       guifg=#121212  guibg=#121212  gui=NONE
 
 hi IncSearch           ctermfg=51   ctermbg=NONE cterm=bold       guifg=#00ffff  guibg=NONE     gui=bold
-hi Search              ctermfg=226  ctermbg=NONE cterm=NONE       guifg=#ffff00  guibg=NONE     gui=NONE
+hi Search              ctermfg=226  ctermbg=NONE cterm=bold       guifg=#ffff00  guibg=NONE     gui=bold
 
 hi TODO                ctermfg=190  ctermbg=NONE cterm=NONE       guifg=#d7ff00  guibg=NONE     gui=NONE
 hi Error               ctermfg=9    ctermbg=NONE cterm=underline  guifg=#ff0000  guibg=NONE     gui=underline
