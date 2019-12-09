@@ -1,0 +1,589 @@
+Highlighting groups for various occasions
+-----------------------------------------
+SpecialKey	SpecialKey
+NonText	NonText EndOfBuffer
+Directory	Directory
+ErrorMsg	ErrorMsg
+IncSearch	IncSearch
+Search	Search
+MoreMsg	MoreMsg
+ModeMsg	ModeMsg
+LineNr	LineNr
+CursorLineNr	CursorLineNr
+Question	Question
+StatusLine	StatusLine
+StatusLineNC	StatusLineNC
+VertSplit	VertSplit
+Title	Title
+Visual	Visual
+VisualNOS	VisualNOS
+WarningMsg	WarningMsg
+WildMenu	WildMenu
+Folded	Folded
+FoldColumn	FoldColumn
+DiffAdd	DiffAdd
+DiffChange	DiffChange
+DiffDelete	DiffDelete
+DiffText	DiffText
+SignColumn	SignColumn
+Conceal	Conceal
+SpellBad	SpellBad
+SpellCap	SpellCap
+SpellRare	SpellRare
+SpellLocal	SpellLocal
+Pmenu	Pmenu
+PmenuSel	PmenuSel
+PmenuSbar	PmenuSbar
+PmenuThumb	PmenuThumb
+TabLine	TabLine
+TabLineSel	TabLineSel
+TabLineFill	TabLineFill
+CursorColumn	CursorColumn
+CursorLine	CursorLine
+ColorColumn	ColorColumn
+StatusLineTerm	StatusLineTerm
+StatusLineTermNC	StatusLineTermNC
+Cursor	Cursor
+
+Syntax highlighting groups
+--------------------------
+lCursor	lCursor
+MatchParen	MatchParen
+Normal	Normal
+ToolbarLine	ToolbarLine
+ToolbarButton	ToolbarButton
+Comment	Comment
+Constant	Constant
+Special	Special
+Identifier	Identifier
+Statement	Statement
+PreProc	PreProc
+Type	Type
+Underlined	Underlined
+Ignore	Ignore
+Error	Error
+Todo	Todo
+String	String
+Character	Character
+Number	Number
+Boolean	Boolean
+Float	Float
+Function	Function
+Conditional	Conditional
+Repeat	Repeat
+Operator	Operator
+Include	Include
+SpecialChar	SpecialChar
+htmlTagName	htmlTagName
+pythonEscape	pythonEscape
+GitGutterAdd	GitGutterAdd
+GitGutterChange	GitGutterChange
+GitGutterDelete	GitGutterDelete
+GitGutterAddInvisible	GitGutterAddInvisible
+GitGutterChangeInvisible	GitGutterChangeInvisible
+GitGutterDeleteInvisible	GitGutterDeleteInvisible
+GitGutterAddDefault	GitGutterAddDefault
+GitGutterChangeDefault	GitGutterChangeDefault
+GitGutterDeleteDefault	GitGutterDeleteDefault
+GitGutterAddIntraLine	GitGutterAddIntraLine
+GitGutterDeleteIntraLine	GitGutterDeleteIntraLine
+netrwSortBy	netrwSortBy
+netrwSortSeq	netrwSortSeq
+netrwQuickHelp	netrwQuickHelp
+netrwCopyTgt	netrwCopyTgt
+netrwPlain	netrwPlain
+netrwSpecial	netrwSpecial
+netrwTime	netrwTime
+netrwSizeDate	netrwSizeDate
+netrwTreeBarSpace	netrwTreeBarSpace
+netrwSlash	netrwSlash
+netrwCmdNote	netrwCmdNote
+netrwGray	netrwGray
+vimStdPlugin	vimStdPlugin
+vimGlobal	vimGlobal
+vimEcho	vimEcho
+vimIsCommand	vimIsCommand
+vimExtCmd	vimExtCmd
+vimFilter	vimFilter
+vimSet	vimSet
+vimUserCmd	vimUserCmd
+vimCmdSep	vimCmdSep
+vimFiletype	vimFiletype
+vimAugroup	vimAugroup
+vimExecute	vimExecute
+vimFunction	vimFunction
+vimOperParen	vimOperParen
+vimRegion	vimRegion
+vimSynLine	vimSynLine
+vimSetEqual	vimSetEqual
+vimFuncBody	vimFuncBody
+vimFuncBlank	vimFuncBlank
+vimEscapeBrace	vimEscapeBrace
+vimSubstRep	vimSubstRep
+vimSubstRange	vimSubstRange
+vimPatRegion	vimPatRegion
+vimCollection	vimCollection
+vimSubstPat	vimSubstPat
+vimSubst2	vimSubst2
+vimSubstRep4	vimSubstRep4
+vimCollClass	vimCollClass
+vimMapLhs	vimMapLhs
+vimAutoCmdSpace	vimAutoCmdSpace
+vimAutoEventList	vimAutoEventList
+vimAutoCmdSfxList	vimAutoCmdSfxList
+vimMapRhs	vimMapRhs
+vimMapRhsExtend	vimMapRhsExtend
+vimMenuBang	vimMenuBang
+vimMenuPriority	vimMenuPriority
+vimMenuMap	vimMenuMap
+vimMenuRhs	vimMenuRhs
+vimNormCmds	vimNormCmds
+vimGroupList	vimGroupList
+vimAuSyntax	vimAuSyntax
+vimClusterName	vimClusterName
+vimIskList	vimIskList
+vimSynKeyRegion	vimSynKeyRegion
+vimSynMatchRegion	vimSynMatchRegion
+vimSynMtchCchar	vimSynMtchCchar
+vimSynMtchGroup	vimSynMtchGroup
+vimSynRegion	vimSynRegion
+vimSynPatMod	vimSynPatMod
+vimSyncLines	vimSyncLines
+vimSyncMatch	vimSyncMatch
+vimSyncLinebreak	vimSyncLinebreak
+vimSyncLinecont	vimSyncLinecont
+vimSyncRegion	vimSyncRegion
+vimHiLink	vimHiLink
+vimHiKeyList	vimHiKeyList
+vimHiBang	vimHiBang
+vimHiCtermColor	vimHiCtermColor
+vimHiFontname	vimHiFontname
+vimHiGuiFontname	vimHiGuiFontname
+vimHiTermcap	vimHiTermcap
+vimCommentTitleLeader	vimCommentTitleLeader
+vimLuaRegion	vimLuaRegion
+luaInnerComment	luaInnerComment
+luaIfThen	luaIfThen
+luaElseifThen	luaElseifThen
+luaThenEnd	luaThenEnd
+luaBlock	luaBlock
+luaLoopBlock	luaLoopBlock
+luaParen	luaParen
+luaTableBlock	luaTableBlock
+luaFunctionBlock	luaFunctionBlock
+vimPerlRegion	vimPerlRegion
+podBoldItalic	podBoldItalic
+podBoldOpen	podBoldOpen
+podBoldAlternativeDelimOpen	podBoldAlternativeDelimOpen
+podItalicBold	podItalicBold
+podItalicOpen	podItalicOpen
+podItalicAlternativeDelimOpen	podItalicAlternativeDelimOpen
+podNoSpaceOpen	podNoSpaceOpen
+podNoSpaceAlternativeDelimOpen	podNoSpaceAlternativeDelimOpen
+podIndexOpen	podIndexOpen
+podIndexAlternativeDelimOpen	podIndexAlternativeDelimOpen
+podBold	podBold
+podBoldAlternativeDelim	podBoldAlternativeDelim
+podItalic	podItalic
+podItalicAlternativeDelim	podItalicAlternativeDelim
+perlPOD	perlPOD
+perlBraces	perlBraces
+perlFakeGroup	perlFakeGroup
+perlFiledescStatementNocomma	perlFiledescStatementNocomma
+perlFiledescStatementComma	perlFiledescStatementComma
+perlStatementIndirObjWrap	perlStatementIndirObjWrap
+perlVarMember	perlVarMember
+perlVarBlock	perlVarBlock
+perlVarBlock2	perlVarBlock2
+perlPackageConst	perlPackageConst
+NONE	NONE
+perlHereDocStart	perlHereDocStart
+perlAutoload	perlAutoload
+perlFormat	perlFormat
+perlSync	perlSync
+perlSyncPOD	perlSyncPOD
+vimPythonRegion	vimPythonRegion
+pythonMatrixMultiply	pythonMatrixMultiply
+pythonAttribute	pythonAttribute
+pythonSync	pythonSync
+vimAugroupSyncA	vimAugroupSyncA
+ALEErrorLine	ALEErrorLine
+ALEWarningLine	ALEWarningLine
+ALEInfoLine	ALEInfoLine
+
+		    links to LineNr
+Statement	links	Statement	links to Label
+Statement	links	Statement	links to Keyword
+Statement	links	Statement	links to Exception
+PreProc	links	PreProc	links to Define
+PreProc	links	PreProc	links to Macro
+PreProc	links	PreProc	links to PreCondit
+Type	links	Type	links to StorageClass
+Type	links	Type	links to Structure
+Type	links	Type	links to Typedef
+Special	links	Special	links to Tag
+Special	links	Special	links to Delimiter
+Special	links	Special	links to SpecialComment
+Special	links	Special	links to Debug
+GitGutterChangeInvisible	links	GitGutterChangeInvisible	links to GitGutterChangeDeleteInvisible
+GitGutterChange	links	GitGutterChange	links to GitGutterChangeDelete
+DiffAdd	links	DiffAdd	links to GitGutterAddLine
+DiffChange	links	DiffChange	links to GitGutterChangeLine
+DiffDelete	links	DiffDelete	links to GitGutterDeleteLine
+GitGutterChangeLine	links	GitGutterChangeLine	links to GitGutterChangeDeleteLine
+CursorLineNr	links	CursorLineNr	links to GitGutterAddLineNr
+CursorLineNr	links	CursorLineNr	links to GitGutterChangeLineNr
+CursorLineNr	links	CursorLineNr	links to GitGutterDeleteLineNr
+CursorLineNr	links	CursorLineNr	links to GitGutterChangeDeleteLineNr
+netrwComment	links	netrwComment	links to netrwHide
+Identifier	links	Identifier	links to netrwVersion
+Directory	links	Directory	links to netrwDir
+Question	links	Question	links to netrwSymLink
+PreProc	links	PreProc	links to netrwExe
+Special	links	Special	links to netrwLink
+Function	links	Function	links to netrwClassify
+Delimiter	links	Delimiter	links to netrwDateSep
+Special	links	Special	links to netrwTreeBar
+netrwDateSep	links	netrwDateSep	links to netrwTimeSep
+Comment	links	Comment	links to netrwComment
+Statement	links	Statement	links to netrwHidePat
+netrwComment	links	netrwComment	links to netrwHideSep
+Statement	links	Statement	links to netrwList
+netrwComment	links	netrwComment	links to netrwComma
+Function	links	Function	links to netrwHelpCmd
+Number	links	Number	links to netrwQHTopic
+Delimiter	links	Delimiter	links to netrwCmdSep
+TabLineSel	links	TabLineSel	links to netrwMarkFile
+WarningMsg	links	WarningMsg	links to netrwCoreDump
+DiffChange	links	DiffChange	links to netrwData
+netrwPlain	links	netrwPlain	links to netrwHdr
+netrwPlain	links	netrwPlain	links to netrwLex
+DiffChange	links	DiffChange	links to netrwLib
+DiffChange	links	DiffChange	links to netrwMakefile
+netrwPlain	links	netrwPlain	links to netrwYacc
+Special	links	Special	links to netrwPix
+netrwGray	links	netrwGray	links to netrwBak
+netrwGray	links	netrwGray	links to netrwCompress
+netrwGray	links	netrwGray	links to netrwSpecFile
+netrwGray	links	netrwGray	links to netrwObj
+netrwGray	links	netrwGray	links to netrwTags
+netrwGray	links	netrwGray	links to netrwTilde
+netrwGray	links	netrwGray	links to netrwTmp
+SpecialKey	links	SpecialKey	links to netrwSuffixes
+Todo	links	Todo	links to vimTodo
+Statement	links	Statement	links to vimCommand
+PreProc	links	PreProc	links to vimOption
+vimError	links	vimError	links to vimErrSetting
+Type	links	Type	links to vimAutoEvent
+Type	links	Type	links to vimGroup
+vimGroup	links	vimGroup	links to vimHLGroup
+Function	links	Function	links to vimFuncName
+vimCommand	links	vimCommand	links to vimSubst
+Comment	links	Comment	links to vimComment
+Number	links	Number	links to vimNumber
+vimMark	links	vimMark	links to vimAddress
+vimCommand	links	vimCommand	links to vimAutoCmd
+vimCommand	links	vimCommand	links to vimLet
+vimCommand	links	vimCommand	links to vimMap
+Number	links	Number	links to vimMark
+vimCommand	links	vimCommand	links to vimSyntax
+Identifier	links	Identifier	links to vimVar
+vimVar	links	vimVar	links to vimFBVar
+vimString	links	vimString	links to vimInsert
+vimBehave	links	vimBehave	links to vimBehaveModel
+vimError	links	vimError	links to vimBehaveError
+vimCommand	links	vimCommand	links to vimBehave
+vimCommand	links	vimCommand	links to vimFTCmd
+vimSynType	links	vimSynType	links to vimFTOption
+vimError	links	vimError	links to vimFTError
+vimCommand	links	vimCommand	links to vimNotFunc
+vimError	links	vimError	links to vimFunctionError
+vimComment	links	vimComment	links to vimLineComment
+Identifier	links	Identifier	links to vimSpecFile
+Operator	links	Operator	links to vimOper
+String	links	String	links to vimString
+SpecialChar	links	SpecialChar	links to vimRegister
+SpecialChar	links	SpecialChar	links to vimCmplxRepeat
+Special	links	Special	links to vimNotation
+SpecialChar	links	SpecialChar	links to vimCtrlChar
+Identifier	links	Identifier	links to vimFuncVar
+Special	links	Special	links to vimContinue
+vimCommand	links	vimCommand	links to vimAugroupKey
+vimError	links	vimError	links to vimAugroupError
+PreProc	links	PreProc	links to vimEnvvar
+vimError	links	vimError	links to vimFunc
+Delimiter	links	Delimiter	links to vimParenSep
+Delimiter	links	Delimiter	links to vimSep
+Error	links	Error	links to vimOperError
+vimCommand	links	vimCommand	links to vimFuncKey
+Special	links	Special	links to vimFuncSID
+vimCommand	links	vimCommand	links to vimAbb
+vimCommand	links	vimCommand	links to vimEchoHL
+vimCommand	links	vimCommand	links to vimHighlight
+vimCommand	links	vimCommand	links to vimNorm
+vimString	links	vimString	links to vimSearch
+vimMap	links	vimMap	links to vimUnmap
+vimCommand	links	vimCommand	links to vimUserCommand
+Type	links	Type	links to vimPattern
+vimSpecFile	links	vimSpecFile	links to vimSpecFileMod
+vimString	links	vimString	links to vimSetString
+vimSpecial	links	vimSpecial	links to vimUserAttrb
+Error	links	Error	links to vimUserAttrbError
+vimOption	links	vimOption	links to vimUserAttrbKey
+vimSpecial	links	vimSpecial	links to vimUserAttrbCmplt
+Error	links	Error	links to vimUserCmdError
+Special	links	Special	links to vimUserAttrbCmpltFunc
+vimString	links	vimString	links to vimCommentString
+vimError	links	vimError	links to vimPatSepErr
+SpecialChar	links	SpecialChar	links to vimPatSep
+vimPatSep	links	vimPatSep	links to vimPatSepZ
+vimString	links	vimString	links to vimPatSepZone
+vimPatSep	links	vimPatSep	links to vimPatSepR
+vimString	links	vimString	links to vimNotPatSep
+vimString	links	vimString	links to vimStringEnd
+vimString	links	vimString	links to vimStringCont
+vimString	links	vimString	links to vimSubstTwoBS
+SpecialChar	links	SpecialChar	links to vimSubstSubstr
+vimSubst	links	vimSubst	links to vimSubst1
+Delimiter	links	Delimiter	links to vimSubstDelim
+vimError	links	vimError	links to vimSubstFlagErr
+vimError	links	vimError	links to vimCollClassErr
+Special	links	Special	links to vimSubstFlags
+vimNumber	links	vimNumber	links to vimMarkNumber
+vimMark	links	vimMark	links to vimPlainMark
+vimRegister	links	vimRegister	links to vimPlainRegister
+vimOption	links	vimOption	links to vimSetMod
+Statement	links	Statement	links to vimSetSep
+vimBracket	links	vimBracket	links to vimMapMod
+vimGroup	links	vimGroup	links to vimEchoHLNone
+vimCommand	links	vimCommand	links to vimMapBang
+vimFuncSID	links	vimFuncSID	links to vimMapModKey
+vimError	links	vimError	links to vimMapModErr
+PreProc	links	PreProc	links to vimMenuName
+vimMapMod	links	vimMapMod	links to vimMenuMod
+vimMenuName	links	vimMenuName	links to vimMenuNameMore
+Delimiter	links	Delimiter	links to vimBracket
+Normal	links	Normal	links to vimUserFunc
+Error	links	Error	links to vimElseIfErr
+vimWarn	links	vimWarn	links to vimBufnrWarn
+Special	links	Special	links to vimGroupSpecial
+Error	links	Error	links to vimSynError
+vimSynOption	links	vimSynOption	links to vimSynContains
+vimSynContains	links	vimSynContains	links to vimSynKeyContainedin
+vimSynOption	links	vimSynOption	links to vimSynNextgroup
+vimSpecial	links	vimSpecial	links to vimSynType
+Type	links	Type	links to vimSynCase
+vimError	links	vimError	links to vimSynCaseError
+vimGroup	links	vimGroup	links to vimGroupName
+vimSynOption	links	vimSynOption	links to vimGroupAdd
+vimSynOption	links	vimSynOption	links to vimGroupRem
+Delimiter	links	Delimiter	links to vimIskSep
+vimSynOption	links	vimSynOption	links to vimSynKeyOpt
+vimComment	links	vimComment	links to vimMtchComment
+vimSynOption	links	vimSynOption	links to vimSynMtchOpt
+vimString	links	vimString	links to vimSynRegPat
+vimString	links	vimString	links to vimSynPatRange
+vimSynRegPat	links	vimSynRegPat	links to vimSynNotPatRange
+vimSynOption	links	vimSynOption	links to vimSynRegOpt
+Type	links	Type	links to vimSynReg
+vimSynOption	links	vimSynOption	links to vimSynMtchGrp
+Type	links	Type	links to vimSyncC
+Error	links	Error	links to vimSyncError
+vimGroupName	links	vimGroupName	links to vimSyncGroupName
+Type	links	Type	links to vimSyncKey
+vimGroupName	links	vimGroupName	links to vimSyncGroup
+Type	links	Type	links to vimSyncNone
+vimHighlight	links	vimHighlight	links to vimHiClear
+vimError	links	vimError	links to vimHiCtermError
+vimGroupName	links	vimGroupName	links to vimHiGroup
+PreProc	links	PreProc	links to vimHiAttrib
+vimHiAttrib	links	vimHiAttrib	links to vimFgBgAttrib
+vimError	links	vimError	links to vimHiAttribList
+vimNumber	links	vimNumber	links to vimHiGuiRgb
+Type	links	Type	links to vimHiTerm
+vimHiTerm	links	vimHiTerm	links to vimHiCTerm
+vimHiTerm	links	vimHiTerm	links to vimHiStartStop
+vimHiTerm	links	vimHiTerm	links to vimHiCtermFgBg
+vimHiTerm	links	vimHiTerm	links to vimHiGui
+vimHiTerm	links	vimHiTerm	links to vimHiGuiFont
+vimHiTerm	links	vimHiTerm	links to vimHiGuiFgBg
+vimError	links	vimError	links to vimHiKeyError
+Number	links	Number	links to vimHiNmbr
+PreProc	links	PreProc	links to vimCommentTitle
+Statement	links	Statement	links to vimSearchDelim
+Todo	links	Todo	links to luaTodo
+Comment	links	Comment	links to luaComment
+Error	links	Error	links to luaParenError
+SpecialChar	links	SpecialChar	links to luaSpecial
+Conditional	links	Conditional	links to luaElse
+Operator	links	Operator	links to luaIn
+Statement	links	Statement	links to luaStatement
+Structure	links	Structure	links to luaTable
+Error	links	Error	links to luaBraceError
+Error	links	Error	links to luaError
+Function	links	Function	links to luaFunction
+Conditional	links	Conditional	links to luaCond
+Repeat	links	Repeat	links to luaRepeat
+Label	links	Label	links to luaLabel
+Operator	links	Operator	links to luaOperator
+Constant	links	Constant	links to luaConstant
+String	links	String	links to luaString2
+String	links	String	links to luaString
+Number	links	Number	links to luaNumber
+Identifier	links	Identifier	links to luaFunc
+Repeat	links	Repeat	links to luaFor
+Comment	links	Comment	links to vimScriptDelim
+String	links	String	links to podCmdText
+Statement	links	Statement	links to podCommand
+Number	links	Number	links to podOverIndent
+Identifier	links	Identifier	links to podForKeywd
+Identifier	links	Identifier	links to podFormat
+PreProc	links	PreProc	links to podVerbatimLine
+Identifier	links	Identifier	links to podSpecial
+String	links	String	links to podEscape
+Number	links	Number	links to podEscape2
+Todo	links	Todo	links to perlTodo
+Conditional	links	Conditional	links to perlConditional
+Error	links	Error	links to perlElseIfError
+Repeat	links	Repeat	links to perlRepeat
+Operator	links	Operator	links to perlOperator
+PreProc	links	PreProc	links to perlControl
+perlStatement	links	perlStatement	links to perlStatementStorage
+perlStatement	links	perlStatement	links to perlStatementControl
+perlStatement	links	perlStatement	links to perlStatementScalar
+perlStatement	links	perlStatement	links to perlStatementRegexp
+perlStatement	links	perlStatement	links to perlStatementNumeric
+perlStatement	links	perlStatement	links to perlStatementList
+perlStatement	links	perlStatement	links to perlStatementHash
+perlStatement	links	perlStatement	links to perlStatementIOfunc
+perlStatement	links	perlStatement	links to perlStatementFiledesc
+perlStatement	links	perlStatement	links to perlStatementVector
+perlStatement	links	perlStatement	links to perlStatementFiles
+perlStatement	links	perlStatement	links to perlStatementFlow
+perlStatement	links	perlStatement	links to perlStatementInclude
+perlStatement	links	perlStatement	links to perlStatementProc
+perlStatement	links	perlStatement	links to perlStatementSocket
+perlStatement	links	perlStatement	links to perlStatementIPC
+perlStatement	links	perlStatement	links to perlStatementNetwork
+perlStatement	links	perlStatement	links to perlStatementPword
+perlStatement	links	perlStatement	links to perlStatementTime
+perlStatement	links	perlStatement	links to perlStatementMisc
+perlStatement	links	perlStatement	links to perlStatementIndirObj
+Label	links	Label	links to perlLabel
+perlIdentifier	links	perlIdentifier	links to perlVarPlain
+perlIdentifier	links	perlIdentifier	links to perlVarNotInMatches
+perlIdentifier	links	perlIdentifier	links to perlVarSlash
+perlType	links	perlType	links to perlPackageRef
+perlIdentifier	links	perlIdentifier	links to perlVarSimpleMember
+perlIdentifier	links	perlIdentifier	links to perlMethod
+perlIdentifier	links	perlIdentifier	links to perlPostDeref
+perlIdentifier	links	perlIdentifier	links to perlVarPlain2
+perlIdentifier	links	perlIdentifier	links to perlFunctionName
+perlString	links	perlString	links to perlShellCommand
+Float	links	Float	links to perlFloat
+Number	links	Number	links to perlNumber
+perlString	links	perlString	links to perlStringUnexpanded
+String	links	String	links to perlString
+perlString	links	perlString	links to perlQQ
+perlIdentifier	links	perlIdentifier	links to perlArrow
+perlString	links	perlString	links to perlVarSimpleMemberName
+perlIdentifier	links	perlIdentifier	links to perlFiledescRead
+perlIdentifier	links	perlIdentifier	links to perlFiledescStatement
+perlSpecial	links	perlSpecial	links to perlSpecialString
+perlString	links	perlString	links to perlSpecialStringU2
+perlSpecial	links	perlSpecial	links to perlSpecialStringU
+perlSpecial	links	perlSpecial	links to perlSpecialMatch
+Error	links	Error	links to perlNotEmptyLine
+perlStatement	links	perlStatement	links to perlMatchStartEnd
+perlStringStartEnd	links	perlStringStartEnd	links to perlVStringV
+perlString	links	perlString	links to perlParensSQ
+perlString	links	perlString	links to perlBracketsSQ
+perlString	links	perlString	links to perlBracesSQ
+perlString	links	perlString	links to perlAnglesSQ
+perlString	links	perlString	links to perlParensDQ
+perlString	links	perlString	links to perlBracketsDQ
+perlString	links	perlString	links to perlBracesDQ
+perlString	links	perlString	links to perlAnglesDQ
+perlString	links	perlString	links to perlMatch
+perlString	links	perlString	links to perlSubstitutionGQQ
+perlString	links	perlString	links to perlSubstitutionSQ
+perlString	links	perlString	links to perlTranslationGQ
+perlString	links	perlString	links to perlStringStartEnd
+Comment	links	Comment	links to perlComment
+perlString	links	perlString	links to perlHereDoc
+perlStatement	links	perlStatement	links to perlStatementPackage
+perlType	links	perlType	links to perlPackageDecl
+Error	links	Error	links to perlSubError
+perlSubAttributes	links	perlSubAttributes	links to perlSubAttributesCont
+PreProc	links	PreProc	links to perlSubAttributes
+Error	links	Error	links to perlSubPrototypeError
+Type	links	Type	links to perlSubPrototype
+Type	links	Type	links to perlSignature
+Function	links	Function	links to perlSubName
+Keyword	links	Keyword	links to perlFunction
+PreProc	links	PreProc	links to perlSharpBang
+perlIdentifier	links	perlIdentifier	links to perlFormatName
+perlString	links	perlString	links to perlFormatField
+perlComment	links	perlComment	links to perlDATA
+Include	links	Include	links to perlInclude
+Special	links	Special	links to perlSpecial
+Character	links	Character	links to perlCharacter
+Type	links	Type	links to perlType
+Identifier	links	Identifier	links to perlIdentifier
+Statement	links	Statement	links to perlStatement
+perlStatement	links	perlStatement	links to perlList
+perlStatement	links	perlStatement	links to perlMisc
+perlType	links	perlType	links to perlStorageClass
+perlType	links	perlType	links to perlFunctionPRef
+perlSpecial	links	perlSpecial	links to perlSpecialAscii
+perlSpecial	links	perlSpecial	links to perlSpecialDollar
+vimError	links	vimError	links to vimEmbedError
+Statement	links	Statement	links to pythonStatement
+Function	links	Function	links to pythonFunction
+Conditional	links	Conditional	links to pythonConditional
+Repeat	links	Repeat	links to pythonRepeat
+Operator	links	Operator	links to pythonOperator
+Exception	links	Exception	links to pythonException
+Include	links	Include	links to pythonInclude
+Statement	links	Statement	links to pythonAsync
+Define	links	Define	links to pythonDecorator
+Function	links	Function	links to pythonDecoratorName
+Define	links	Define	links to pythonDoctestValue
+Todo	links	Todo	links to pythonTodo
+Comment	links	Comment	links to pythonComment
+String	links	String	links to pythonQuotes
+String	links	String	links to pythonString
+pythonQuotes	links	pythonQuotes	links to pythonTripleQuotes
+Error	links	Error	links to pythonSpaceError
+Special	links	Special	links to pythonDoctest
+String	links	String	links to pythonRawString
+Number	links	Number	links to pythonNumber
+Function	links	Function	links to pythonBuiltin
+Structure	links	Structure	links to pythonExceptions
+Error	links	Error	links to vimError
+vimError	links	vimError	links to vimKeyCodeError
+WarningMsg	links	WarningMsg	links to vimWarn
+vimHighlight	links	vimHighlight	links to vimAuHighlight
+vimOption	links	vimOption	links to vimAutoCmdOpt
+vimCommand	links	vimCommand	links to vimAutoSet
+vimCommand	links	vimCommand	links to vimCondHL
+vimCondHL	links	vimCondHL	links to vimElseif
+Folded	links	Folded	links to vimFold
+Special	links	Special	links to vimSynOption
+PreProc	links	PreProc	links to vimHLMod
+vimSpecFile	links	vimSpecFile	links to vimKeyCode
+Statement	links	Statement	links to vimKeyword
+Type	links	Type	links to vimSpecial
+Statement	links	Statement	links to vimStatement
+Error	links	Error	links to ALEErrorSign
+ALEErrorSign	links	ALEErrorSign	links to ALEStyleErrorSign
+Todo	links	Todo	links to ALEWarningSign
+ALEWarningSign	links	ALEWarningSign	links to ALEStyleWarningSign
+ALEWarningSign	links	ALEWarningSign	links to ALEInfoSign
+Error	links	Error	links to ALESignColumnWithErrors
+LineNr	links	LineNr	links to ALESignColumnWithoutErrors
+SpellBad	links	SpellBad	links to ALEError
+ALEError	links	ALEError	links to ALEStyleError
+SpellCap	links	SpellCap	links to ALEWarning
+ALEWarning	links	ALEWarning	links to ALEStyleWarning
+ALEWarning	links	ALEWarning	links to ALEInfo

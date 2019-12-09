@@ -19,8 +19,8 @@ set background=dark
 hi Normal              ctermfg=231  ctermbg=233  cterm=NONE       guifg=#ffffff  guibg=#121212  gui=NONE
 hi Constant            ctermfg=231  ctermbg=233  cterm=NONE       guifg=#ffffff  guibg=#121212  gui=NONE
 
-hi Character           ctermfg=250  ctermbg=233  cterm=NONE       guifg=#bcbcbc  guibg=#121212  gui=NONE
-hi Comment             ctermfg=248  ctermbg=NONE cterm=italic     guifg=#a8a8a8  guibg=NONE     gui=italic
+hi Character           ctermfg=250  ctermbg=NONE cterm=NONE       guifg=#bcbcbc  guibg=NONE     gui=NONE
+hi Comment             ctermfg=231  ctermbg=NONE cterm=NONE       guifg=#ffffff  guibg=NONE     gui=NONE
 hi String              ctermfg=254  ctermbg=NONE cterm=NONE       guifg=#e4e4e4  guibg=NONE     gui=NONE
 
 hi Number              ctermfg=197  ctermbg=NONE cterm=NONE       guifg=#ff005f  guibg=NONE     gui=NONE
@@ -35,9 +35,11 @@ hi Conditional         ctermfg=231  ctermbg=NONE cterm=bold       guifg=#ffffff 
 hi Operator            ctermfg=231  ctermbg=NONE cterm=NONE       guifg=#ffffff  guibg=NONE     gui=NONE
 hi Repeat              ctermfg=231  ctermbg=NONE cterm=NONE       guifg=#ffffff  guibg=NONE     gui=NONE
 
+hi Type                ctermfg=231  ctermbg=NONE cterm=NONE       guifg=#ffffff  guibg=NONE     gui=NONE
+hi Character           ctermfg=231  ctermbg=NONE cterm=NONE       guifg=#ffffff  guibg=NONE     gui=NONE
+hi linenr              ctermfg=240  ctermbg=NONE cterm=NONE       guifg=#585858  guibg=NONE     gui=NONE
+
 hi NonText             ctermfg=241  ctermbg=NONE cterm=NONE       guifg=#626262  guibg=NONE     gui=NONE
-hi Type                ctermfg=250  ctermbg=NONE cterm=NONE       guifg=#bcbcbc  guibg=NONE     gui=NONE
-hi linenr              ctermfg=240  ctermbg=233  cterm=NONE       guifg=#585858  guibg=#121212  gui=NONE
 hi Visual              ctermfg=233  ctermbg=243  cterm=NONE       guifg=#121212  guibg=#767676  gui=NONE
 
 hi Special             ctermfg=250  ctermbg=NONE cterm=NONE       guifg=#bcbcbc  guibg=NONE     gui=NONE
@@ -61,13 +63,13 @@ hi VertSplit           ctermfg=197  ctermbg=233  cterm=NONE       guifg=#ff005f 
 hi SignColumn          ctermfg=233  ctermbg=233  cterm=NONE       guifg=#121212  guibg=#121212  gui=NONE
 
 hi IncSearch           ctermfg=51   ctermbg=NONE cterm=bold       guifg=#00ffff  guibg=NONE     gui=bold
-hi Search              ctermfg=226  ctermbg=NONE cterm=bold       guifg=#ffff00  guibg=NONE     gui=bold
+hi Search              ctermfg=237  ctermbg=229  cterm=bold       guifg=#3a3a3a  guibg=#ffffaf  gui=bold
 
 hi TODO                ctermfg=190  ctermbg=NONE cterm=NONE       guifg=#d7ff00  guibg=NONE     gui=NONE
 hi Error               ctermfg=9    ctermbg=NONE cterm=underline  guifg=#ff0000  guibg=NONE     gui=underline
 hi ErrorMsg            ctermfg=9    ctermbg=NONE cterm=underline  guifg=#ff0000  guibg=NONE     gui=underline
 
-hi PreProc             ctermfg=245  ctermbg=NONE cterm=NONE       guifg=#8a8a8a  guibg=NONE     gui=NONE
+hi PreProc             ctermfg=231  ctermbg=NONE  cterm=NONE      guifg=#ffffff  guibg=NONE     gui=NONE
 hi Title               ctermfg=197  ctermbg=NONE cterm=bold       guifg=#ff005f  guibg=NONE     gui=bold
 hi WildMenu            ctermfg=197  ctermbg=NONE cterm=NONE       guifg=#ff005f  guibg=NONE     gui=NONE
 hi Underlined          ctermfg=197  ctermbg=NONE cterm=underline  guifg=#ff005f  guibg=NONE     gui=underline
@@ -83,6 +85,10 @@ hi FoldColumn          ctermfg=258  ctermbg=239  cterm=bold       guifg=#eeeeee 
 
 hi Statusline          ctermfg=231  ctermbg=197  cterm=bold       guifg=#eeeeee  guibg=#ff005f  gui=bold
 hi StatuslineNC        ctermfg=231  ctermbg=204  cterm=bold       guifg=#eeeeee  guibg=#ff5f87  gui=bold
+
+hi GitGutterAdd        ctermfg=22   ctermbg=233  cterm=NONE       guifg=#005f00  guibg=#121212  gui=NONE
+hi GitGutterChange     ctermfg=94   ctermbg=233  cterm=NONE       guifg=#875f00  guibg=#121212  gui=NONE
+hi GitGutterDelete     ctermfg=197  ctermbg=233  cterm=NONE       guifg=#ff005f  guibg=#121212  gui=NONE
 
 hi htmlTagName         ctermfg=231  ctermbg=NONE cterm=bold       guifg=#ffffff  guibg=NONE     gui=bold
 hi pythonEscape        ctermfg=197  ctermbg=NONE cterm=bold       guifg=#ff005f  guibg=NONE     gui=bold
