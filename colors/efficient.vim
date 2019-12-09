@@ -10,7 +10,7 @@ if exists("syntax on")
   syntax reset
 endif
 
-let g:colors_name = "efficient-contrast"
+let g:colors_name = "efficient"
 set background=dark
 
 "
@@ -69,7 +69,7 @@ hi TODO                ctermfg=190  ctermbg=NONE cterm=NONE       guifg=#d7ff00 
 hi Error               ctermfg=9    ctermbg=NONE cterm=underline  guifg=#ff0000  guibg=NONE     gui=underline
 hi ErrorMsg            ctermfg=9    ctermbg=NONE cterm=underline  guifg=#ff0000  guibg=NONE     gui=underline
 
-hi PreProc             ctermfg=231  ctermbg=NONE  cterm=NONE      guifg=#ffffff  guibg=NONE     gui=NONE
+hi PreProc             ctermfg=231  ctermbg=NONE cterm=NONE       guifg=#ffffff  guibg=NONE     gui=NONE
 hi Title               ctermfg=197  ctermbg=NONE cterm=bold       guifg=#ff005f  guibg=NONE     gui=bold
 hi WildMenu            ctermfg=197  ctermbg=NONE cterm=NONE       guifg=#ff005f  guibg=NONE     gui=NONE
 hi Underlined          ctermfg=197  ctermbg=NONE cterm=underline  guifg=#ff005f  guibg=NONE     gui=underline
