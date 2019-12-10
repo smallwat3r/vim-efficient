@@ -87,8 +87,8 @@ hi FoldColumn          ctermfg=258  ctermbg=239  cterm=bold       guifg=#eeeeee 
 hi Statusline          ctermfg=231  ctermbg=197  cterm=bold       guifg=#eeeeee  guibg=#ff005f  gui=bold
 hi StatuslineNC        ctermfg=231  ctermbg=204  cterm=bold       guifg=#eeeeee  guibg=#ff5f87  gui=bold
 
-hi GitGutterAdd        ctermfg=22   ctermbg=233  cterm=NONE       guifg=#005f00  guibg=#121212  gui=NONE
-hi GitGutterChange     ctermfg=94   ctermbg=233  cterm=NONE       guifg=#875f00  guibg=#121212  gui=NONE
+hi GitGutterAdd        ctermfg=154  ctermbg=233  cterm=NONE       guifg=#afff00  guibg=#121212  gui=NONE
+hi GitGutterChange     ctermfg=226  ctermbg=233  cterm=NONE       guifg=#ffff00  guibg=#121212  gui=NONE
 hi GitGutterDelete     ctermfg=197  ctermbg=233  cterm=NONE       guifg=#ff005f  guibg=#121212  gui=NONE
 
 hi htmlTagName         ctermfg=231  ctermbg=NONE cterm=bold       guifg=#ffffff  guibg=NONE     gui=bold
