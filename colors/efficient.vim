@@ -21,8 +21,8 @@ hi Normal              ctermfg=231  ctermbg=233  cterm=NONE       guifg=#ffffff 
 hi Constant            ctermfg=231  ctermbg=233  cterm=NONE       guifg=#ffffff  guibg=#121212  gui=NONE
 
 hi Character           ctermfg=250  ctermbg=NONE cterm=NONE       guifg=#bcbcbc  guibg=NONE     gui=NONE
-hi Comment             ctermfg=231  ctermbg=NONE cterm=NONE       guifg=#ffffff  guibg=NONE     gui=NONE
-hi String              ctermfg=254  ctermbg=NONE cterm=NONE       guifg=#e4e4e4  guibg=NONE     gui=NONE
+hi Comment             ctermfg=240  ctermbg=NONE cterm=NONE       guifg=#585858  guibg=NONE     gui=NONE
+hi String              ctermfg=252  ctermbg=NONE cterm=NONE       guifg=#d0d0d0  guibg=NONE     gui=NONE
 
 hi Number              ctermfg=197  ctermbg=NONE cterm=NONE       guifg=#ff005f  guibg=NONE     gui=NONE
 hi Float               ctermfg=197  ctermbg=NONE cterm=NONE       guifg=#ff005f  guibg=NONE     gui=NONE
