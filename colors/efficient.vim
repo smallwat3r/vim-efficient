@@ -56,7 +56,7 @@ hi CursorLine          ctermfg=250  ctermbg=233  cterm=NONE       guifg=#b9b9b9 
 hi CursorLineNR        ctermfg=250  ctermbg=233  cterm=NONE       guifg=#b9b9b9  guibg=#101010  gui=NONE
 
 hi DiffAdd             ctermfg=22   ctermbg=194  cterm=NONE       guifg=#005f00  guibg=#d7ffd7  gui=NONE
-hi DiffChange          ctermfg=94   ctermbg=222  cterm=NONE       guifg=#875f00  guibg=#ffd787  gui=NONE
+hi DiffChange          ctermfg=228  ctermbg=233  cterm=NONE       guifg=#ffff87  guibg=#121212  gui=NONE
 hi DiffDelete          ctermfg=254  ctermbg=197  cterm=NONE       guifg=#e4e4e4  guibg=#ff005f  gui=NONE
 hi DiffText            ctermfg=240  ctermbg=233  cterm=NONE       guifg=#585858  guibg=#121212  gui=NONE
 
