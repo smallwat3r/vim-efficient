@@ -3,6 +3,8 @@
 " Date  : 01.12.2019
 "
 " A very simple but efficient monochrome-ish colorscheme.
+" Lean version of efficient (no color for strings and no bold typeface in
+" code.)
 "
 
 hi clear
@@ -11,7 +13,7 @@ if exists("syntax on")
   syntax reset
 endif
 
-let g:colors_name="efficient"
+let g:colors_name="efficient-lean"
 set background=dark
 
 "
@@ -22,17 +24,17 @@ hi Constant            ctermfg=231  ctermbg=233  cterm=NONE       guifg=#ffffff 
 
 hi Character           ctermfg=250  ctermbg=NONE cterm=NONE       guifg=#bcbcbc  guibg=NONE     gui=NONE
 hi Comment             ctermfg=240  ctermbg=NONE cterm=NONE       guifg=#585858  guibg=NONE     gui=NONE
-hi String              ctermfg=252  ctermbg=NONE cterm=NONE       guifg=#d0d0d0  guibg=NONE     gui=NONE
+hi String              ctermfg=231  ctermbg=NONE cterm=NONE       guifg=#ffffff  guibg=NONE     gui=NONE
 
 hi Number              ctermfg=197  ctermbg=NONE cterm=NONE       guifg=#ff005f  guibg=NONE     gui=NONE
 hi Float               ctermfg=197  ctermbg=NONE cterm=NONE       guifg=#ff005f  guibg=NONE     gui=NONE
 hi Boolean             ctermfg=231  ctermbg=NONE cterm=NONE       guifg=#ffffff  guibg=NONE     gui=NONE
 hi Identifier          ctermfg=231  ctermbg=NONE cterm=NONE       guifg=#ffffff  guibg=NONE     gui=NONE
 
-hi Include             ctermfg=231  ctermbg=NONE cterm=bold       guifg=#ffffff  guibg=NONE     gui=bold
+hi Include             ctermfg=231  ctermbg=NONE cterm=NONE       guifg=#ffffff  guibg=NONE     gui=NONE
 hi Function            ctermfg=231  ctermbg=NONE cterm=NONE       guifg=#ffffff  guibg=NONE     gui=NONE
-hi Statement           ctermfg=231  ctermbg=NONE cterm=bold       guifg=#ffffff  guibg=NONE     gui=bold
-hi Conditional         ctermfg=231  ctermbg=NONE cterm=bold       guifg=#ffffff  guibg=NONE     gui=bold
+hi Statement           ctermfg=231  ctermbg=NONE cterm=NONE       guifg=#ffffff  guibg=NONE     gui=NONE
+hi Conditional         ctermfg=231  ctermbg=NONE cterm=NONE       guifg=#ffffff  guibg=NONE     gui=NONE
 hi Operator            ctermfg=231  ctermbg=NONE cterm=NONE       guifg=#ffffff  guibg=NONE     gui=NONE
 hi Repeat              ctermfg=231  ctermbg=NONE cterm=NONE       guifg=#ffffff  guibg=NONE     gui=NONE
 
@@ -91,5 +93,5 @@ hi GitGutterAdd        ctermfg=154  ctermbg=233  cterm=NONE       guifg=#afff00 
 hi GitGutterChange     ctermfg=229  ctermbg=233  cterm=NONE       guifg=#ffffaf  guibg=#121212  gui=NONE
 hi GitGutterDelete     ctermfg=197  ctermbg=233  cterm=NONE       guifg=#ff005f  guibg=#121212  gui=NONE
 
-hi htmlTagName         ctermfg=231  ctermbg=NONE cterm=bold       guifg=#ffffff  guibg=NONE     gui=bold
-hi pythonEscape        ctermfg=197  ctermbg=NONE cterm=bold       guifg=#ff005f  guibg=NONE     gui=bold
+hi htmlTagName         ctermfg=231  ctermbg=NONE cterm=NONE       guifg=#ffffff  guibg=NONE     gui=NONE
+hi pythonEscape        ctermfg=197  ctermbg=NONE cterm=NONE       guifg=#ff005f  guibg=NONE     gui=NONE
