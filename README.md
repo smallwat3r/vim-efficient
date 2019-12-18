@@ -12,5 +12,5 @@ Works in terminal vim and GUI.
 ![efficient_lean](https://github.com/smallwat3r/efficient/blob/master/_screenshots/_efficient_lean.png)  
 
 ### efficient-lean-soft  
-(Even simpler version)  
+(Even simpler version (with softer bg))  
 ![efficient_lean](https://github.com/smallwat3r/efficient/blob/master/_screenshots/_efficient_lean_soft.png)  
