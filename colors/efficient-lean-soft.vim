@@ -1,4 +1,4 @@
-" File  : efficient-lean.vim
+" File  : efficient-lean-soft.vim
 " Author: Matthieu Petiteau <mpetiteau.pro@gmail.com>
 " Date  : 01.12.2019
 "
